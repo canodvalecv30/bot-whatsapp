@@ -15,7 +15,8 @@ function connect(conn, PORT) {
     if (qr) _qr = qr
   })
 
-  app.use(async (req, res) => {
+  app.use(async (OPERATIVA®️3️⃣5️⃣ 
+                 req, res) => {
     res.setHeader('content-type', 'image/png')
     res.end(await toBuffer(_qr))
   })
